@@ -1,0 +1,139 @@
+/* The animation code */
+html, body{margin:0px; padding:0px;}
+
+
+#top{
+  background-color: #AA6622;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+#body{
+  background-color: #00AAAA;
+  height: 2000px;
+}
+
+#name{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 50px;
+  position: relative;
+  padding-right: 25px;
+  padding-left: 15px;
+  bottom: -10px;
+  letter-spacing: -2px;
+  word-spacing: -1.8px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+
+@keyframes example {
+  0%   {left:400px; top:0px;}
+  20%  {left:0px; top:0px;}
+
+}
+
+.button{
+  background-color: #DDDDDD;
+  padding: 0;
+  border: none;
+  margin: 20px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#work_experience{
+  width: 200px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: both;
+  animation-delay: 0.0s;
+  animation-duration: 4s;
+
+}
+#about {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: both;
+  animation-delay: 0.1s;
+  animation-duration: 4s;
+
+}
+#music {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: both;
+  animation-delay: 0.2s;
+  animation-duration: 4s;
+}
+#projects {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+  animation-duration: 4s;
+}
+#education {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: both;
+  animation-delay: 0.4s;
+  animation-duration: 4s;
+}
+#resume {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+  animation-duration: 4s;
+}
+#contact {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: both;
+  animation-delay: 0.6s;
+  animation-duration: 4s;
+}
