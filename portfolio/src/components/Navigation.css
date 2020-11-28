@@ -2,6 +2,7 @@
   0%   {left:400px; top:0px;}
   20%  {left:0px; top:0px;}
 
+
 }
 
 #name{
@@ -63,7 +64,6 @@
   animation-fill-mode: both;
   animation-delay: 0.0s;
   animation-duration: 4s;
-
 }
 #about {
   width: 100px;
