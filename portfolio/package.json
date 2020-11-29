@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "http://yourdomainname.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^12.2.2",
     "react": "^17.0.1",
     "react-awesome-button": "^6.5.1",
+    "react-collapsible": "^2.8.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
