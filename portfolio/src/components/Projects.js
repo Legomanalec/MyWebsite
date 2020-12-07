@@ -1,5 +1,6 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
+import './Projects.scss';
 const Projects = () => {
     return (
        <div>

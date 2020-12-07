@@ -8,6 +8,7 @@ import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
+import Particles from 'react-particles-js';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
        <BrowserRouter>
         <div>
           <Navigation />
+
             <Switch>
              <Route path="/" component={Home} exact/>
              <Route path="/about" component={About}/>
@@ -23,6 +25,26 @@ class App extends Component {
              <Route path="/workExperience" component={WorkExperience}/>
             <Route component={Error}/>
            </Switch>
+
+
+           <Particles
+                 params={{
+                   particles: {
+                     line_linked: {
+                       shadow: {
+                         enable: true,
+                         color: "#3CA9D1",
+                         blur: 5
+                       }
+                     }
+                   }
+                 }}
+                 style={{
+                   width: '100%',
+                   height: '100%'
+                 }}
+               />
+               
         </div>
       </BrowserRouter>
     );

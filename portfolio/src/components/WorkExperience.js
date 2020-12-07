@@ -1,5 +1,8 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
+
+import './WorkExperience.scss';
+
 const WorkExperience = () => {
     return (
        <div>
