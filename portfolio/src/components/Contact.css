@@ -1,5 +1,4 @@
 
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -31,5 +30,9 @@
 
 .fa-soundcloud {
   background: #ff5500;
+  color: white;
+}
+.fa-github{
+  background: #333333;
   color: white;
 }

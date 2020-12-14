@@ -1,5 +1,6 @@
 // Collapsible.js
 import React from 'react';
+import './WorkExperience.scss'
 class Collapsible extends React.Component {
   constructor(props){
     super(props);
